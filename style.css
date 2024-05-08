@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    border-top: 4px solid #FF7500;
+    margin: auto;
+}
+
+header nav {
+    width: 1100px;
+    margin: auto;
+}
+
+header nav ul {
+    display: inline-block;
+
+}
+
+header nav ul:nth-child(2) {
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: auto;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+header nav ul li a:hover{
+    color: #FF7500;
+    opacity: 80%;
+}
+header nav ul li a:active{
+    opacity: 60%;
+}
+section {
+    width: 100%;
+    background-color: white;
+}
+
+.asos {
+    width: 100%;
+}
+
+.asos .card___wrapper {
+    width: 1100px;
+    margin: auto;
+    background-color: #252420;
+}
+
+.asos .card___wrapper .card {
+    display: inline-block;
+    width: 45%;
+    color: white;
+    vertical-align: middle;
+    padding: 60px 80px;
+    margin: 0px 20px;
+}
+
+.asos .card___wrapper .card img {
+    width: 100%;
+}
+
+.asos .card___wrapper .card h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.asos .card___wrapper .card p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.btn {
+    background-color: #FF7500;
+    color: white;
+    border: 1px solid #FF7500;
+    width: 150px;
+    height: 39px;
+    padding: 12px 16px;
+    border-radius: 7px;
+}
+.btn:hover{
+opacity: 80%;
+}
+.btn:active{
+    opacity: 60%;
+}
+.urta {
+    width: 100%;
+}
+
+.urta .card___wrapper2 {
+    background-color: white;
+    width: 1100px;
+    margin: auto;
+    padding: 80px;
+}
+
+.urta .card___wrapper2 .car {
+    background-color: #FF7500;
+    width: 80px;
+    height: 4px;
+    margin-top: 50px;
+}
+
+.urta .card___wrapper2 .h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.urta .card___wrapper2 .card1 {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    margin: 20px 10px 50px 10px;
+    padding: 10px;
+
+}
+
+.urta .card___wrapper2 .card1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.urta .card___wrapper2 .card1 h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.urta .card___wrapper2 .card1 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.oxir {
+    width: 100%;
+    background-color: white;
+}
+.oxir .ol{
+    width: 1100px;
+    margin: auto;
+}
+.card___wrapper3 {
+    width: 900px;
+    background-color: #252420;
+    color: white;
+    padding: 10px 30px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+}
+
+.card___wrapper3 .card3 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin: 60px 40px;
+
+}
+
+.oxir .card___wrapper3 .card3 h1{
+    font-size: 36px;
+    font-weight: 700px;
+    margin: 20px 0px 10px ;
+}
+.oxir .card___wrapper3 .card3 img{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.oxir .card___wrapper3 .card3 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
